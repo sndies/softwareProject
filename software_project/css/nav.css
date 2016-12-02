@@ -1,0 +1,107 @@
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+}
+#search{
+    background-color: #ffffff;
+    color: #777;
+    padding: 10px 10px;
+    width: 400px;
+    font-size:15px;
+    vertical-align:middle;
+    float:right;
+    margin-top: 10px;
+    margin-right: 130px;
+    border:0.5px solid #f0ead8;
+    box-shadow:0px 0px 9px #888888;
+}
+.fixed-btn{
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    width: 40px;
+    border: 1px solid #eee;
+    background:white;
+    font-size: 24px;
+    z-index: 1040;
+    -webkit-backface-visibility: hidden;
+}
+.fixed-btn .go-top {
+    border-bottom: 3px solid #eee;
+}
+.fixed-btn a i {
+    vertical-align: middle;
+}
+.fixed-btn a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+a:hover {
+    opacity: .8;
+    color: #64854c;
+}
+
+a:focus {
+    outline: 0;
+    -moz-outline: 0;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+    -o-transition-duration: .2s;
+    -o-transition-property: opacity;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: opacity;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fixed-btn a:after {
+    content: ".";
+    font-size: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.abc{
+    top: auto;
+    bottom: 0;
+    height: 188px;
+    width: 168px;
+    padding: 10px;
+    margin: 0;
+    right: 55px;
+    left: auto;
+    text-align: center;
+    background-color: white;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    position: fixed;
+    background-clip: padding-box;
+    outline: 0;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 10px;
+}

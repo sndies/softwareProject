@@ -1,0 +1,72 @@
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+}
+#header{
+    margin-top: 0;
+    padding-left: 150px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+#header label[id="headIn"]{
+    font-size:30px; color: #777777;
+    vertical-align:bottom;
+}
+#nav{
+    z-index: 1;
+}
+#nav p[id="navline"]{
+    background: url(../images/reg_hr.png) no-repeat center top;
+    height: 20px;
+    margin: 0;
+    padding:0;
+}
+#content {
+    float:left;
+    padding:50px 150px;
+    width: 400px;
+}
+#content fieldset{
+    background-color: #fff;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    border-radius: 0 0 20px 20px;
+    padding: 25px 26px;
+    box-shadow: 6px 6px 5px #888888;
+}
+#content fieldset p {
+    color: #777;
+    margin-bottom: 12px;
+}
+
+#content fieldset p:last-child {
+    margin-bottom: 0;
+}
+#content fieldset input {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#content fieldset input[type="name"], #content fieldset input[type="password"] {
+    background-color: #ffffff;
+    color: #777;
+    padding: 10px 10px;
+    width: 328px;
+    font-size:12px;
+    vertical-align:middle;
+    border:0.5px solid #f0ead8;
+}
+#content fieldset input[type="submit"] {
+    background-color: rgb(124, 150, 250);
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 300px;
+}

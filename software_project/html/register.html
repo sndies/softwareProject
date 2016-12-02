@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>注册</title>
+    <script src="../js/register.js"></script>
+<link type="text/css" href="../css/register.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+    <span><img src="../images/user.png" style="vertical-align:bottom"><label id="headIn" > | 注册你的账号</label></span>
+</div>
+<div id="nav">
+    <span><p id="navline"></p></span>
+</div>
+<div id="content">
+    <form id="form" action="../user/register.php" method="POST">
+        <fieldset>
+        <p><label style="padding-bottom: 8px;">用户名 </label><input type="name" id="username" name="username" placeholder="设置帐号名" onblur="checkUserid()" onFocus="if(this.value=='设置账号名')this.value=''"></p>
+            <span id="useridSpan" style="color:#F00; font-size:9px; margin-bottom: 3px;"></span>
+        <p><label style="padding-bottom: 8px">密码 </label><input type="password" id="password" name="password" placeholder="设置登录密码"onblur="checkPasswd()" onFocus="if(this.value=='设置登录密码')this.value=''"></p>
+            <span id="passwdSpan" style="color:#F00; font-size:9px; margin-bottom: 3px;"></span>
+        <p><label style="padding-bottom: 8px">确认密码 </label><input type="password" id="ensure" name="ensurePasswd" placeholder="确认密码"  onblur="checkSame()" onFocus="if(this.value=='确认密码')this.value=''"></p>
+            <span id="ensureSpan" style="color:#F00; font-size:9px; margin-bottom: 3px;"></span>
+        <p><input id="regi" type="submit" value="注册"></p>
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>
